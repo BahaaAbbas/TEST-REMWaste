@@ -166,14 +166,6 @@ const Skip = () => {
                         )}
                       </div>
 
-                      <div className="absolute top-4 left-2 flex flex-col gap-2 z-100">
-                        {skip.allows_heavy_waste && (
-                          <Badge className="bg-purple-600 text-white px-2 py-1 flex items-center gap-1 text-xs rounded-lg">
-                            <Dumbbell className="w-3 h-3  " />
-                            Heavy Waste
-                          </Badge>
-                        )}
-                      </div>
                       <div className="flex items-center justify-center">
                         <img
                           src={wasteImage}
